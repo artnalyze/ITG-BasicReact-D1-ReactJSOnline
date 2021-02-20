@@ -1,13 +1,18 @@
-import React from 'react';
+import {StrictMode} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './MyStyle.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ServiceClassComponent from './ServiceClassComponent';
+import ServiceFunctionalComponent from './ServiceFunctionalComponent';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StrictMode>
+    {/* <App /> */}
+    <ServiceClassComponent/>
+    <ServiceFunctionalComponent/>
+  </StrictMode>,
   document.getElementById('root')
 );
 
