@@ -1,10 +1,13 @@
 // rafce
 // import React from 'react'
 
+// import About from "./About"
+
 const App = () => {
   return (
     <div>
       <h1>Hello My React JS</h1>
+      {/* <About/> */}
     </div>
   )
 }
