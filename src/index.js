@@ -4,14 +4,10 @@ import './index.css';
 import './MyStyle.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ServiceClassComponent from './ServiceClassComponent';
-import ServiceFunctionalComponent from './ServiceFunctionalComponent';
 
 ReactDOM.render(
   <StrictMode>
-    {/* <App /> */}
-    <ServiceClassComponent/>
-    <ServiceFunctionalComponent/>
+    <App />
   </StrictMode>,
   document.getElementById('root')
 );

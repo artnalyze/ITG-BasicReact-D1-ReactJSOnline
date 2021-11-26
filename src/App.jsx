@@ -3,11 +3,8 @@ import Contact from './Contact'
 
 const App = () => {
   return (
-    <div>
-      <h1>App Component</h1>
-      <About/>
-      <Contact/>
-
+    <div className="App">
+      <h1>Hello React JS</h1>
     </div>
   )
 }
