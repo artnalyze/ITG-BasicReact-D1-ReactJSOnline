@@ -1,22 +1,22 @@
-import About from "./About"
-import Contact from './Contact'
+// rafce
+// import React from 'react'
 
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hello React JS</h1>
+    <div>
+      <h1>Hello My React JS</h1>
     </div>
   )
 }
 
 export default App
 
-// rafce
 
-// normal component
+// const App = () => <h1>Hello React JS</h1>
+// export default App
+
 // function App() {
 //   return <h1>Hello React JS</h1>
 // }
 
-// const App = () => <h1>Hello React JS</h1>
 // export default App
